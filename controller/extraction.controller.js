@@ -1,7 +1,7 @@
 
 // import Extraction from "../model/Extraction.model.js";
 
-import Extraction from "../model/Extraction.model.js";
+import Extraction from "../model/extraction.model.js";
 import { extractWithNvidia } from '../utils/ai.utils.js';
 
 export const extractContent = async(req, res)=>{
